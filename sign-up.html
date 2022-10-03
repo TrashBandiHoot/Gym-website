@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<title>Sign-in</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+<!-- Navigation -->
+
+<nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 fixed-top">
+    <div class="container">
+        <a href="index.html" class="navbar-brand">My Landscapes</a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sign-in.html" class="nav-link">Sign-in</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Background -->
+
+<section class="background">
+    <div>
+        <img src="static/banner.jpg" class="img-fluid" alt="Rock climbers">
+    </div>
+</section>
+
+<!-- Ask page to see if you have an account/include sign-in form and button for new users with sign-up page -->
+<div class="d-flex justify-content-center log">
+<form class="bg-dark p-5 log-border">
+    <p class="text-light">Please sign-up</p>
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="pword">Password</label>
+      <input type="password" class="form-control" id="pword" placeholder="Password">
+    </div>
+    <div class="form-group pb-4">
+        <label for="pword-confirm">Password</label>
+        <input type="password" class="form-control" id="pword-confirm" placeholder="Repeat Password">
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="human">
+        <label class="form-check-label text-light" for="human">Subscribe to weekly newsletter?</label>
+      </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button href="sign-in.html" class="btn btn-primary">Have an account?</button>
+  </form>
+</div>
+
+<!-- Footer -->
+
+<footer class="bg-dark text-light text-center mt-auto">
+    &copy Dominic Davenport 2022
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
